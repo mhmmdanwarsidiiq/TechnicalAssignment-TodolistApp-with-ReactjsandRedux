@@ -11,7 +11,7 @@ export const TodoList = () => {
     <Box my={3}>
       {filterTodos.length ? filterTodos.map(todo => (
         <Todo key={`todo-${todo.id}`} todo={todo} />
-      )) : <Box textAlign="center" my="4">No Todos Yay!</Box>}
+      )) : <Box textAlign="center" my="4">No Todos!</Box>}
     </Box>
   )
 }
